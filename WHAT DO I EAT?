@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x;
+    printf("ENTER ANY NUMBER FROM 1 TO 5:\n");
+    scanf("%d ",&x);
+    switch(x)
+    {
+    case 1:
+        printf("FOOD ITEM: PIZZA\n PRICE: Rs. 239");
+        break;
+    case 2:
+        printf("FOOD ITEM: BURGER\n PRICE: Rs. 129");
+        break;
+    case 3:
+        printf("FOOD ITEM: PASTA\n PRICE: Rs. 179");
+        break;
+    case 4:
+        printf("FOOD ITEM: FRENCH FRIES\n PRICE: Rs. 99");
+        break;
+    default:
+        printf("FOOD ITEM: SANDWICH\n PRICE: Rs. 149");
+    }
+    return 0;
+}
